@@ -7171,6 +7171,7 @@ header.sticky .header-light:not(.disable-fixed) {
   box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.1);
   background-color: #000000a8 !important;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 header.sticky.sticky-active .header-reverse {
   -webkit-transform: translateY(0);

@@ -19960,7 +19960,7 @@
   header.sticky .disable-fixed .navbar-brand,
   header.sticky .fixed-header .navbar-brand,
   header.sticky .navbar-brand {
-    padding: 22px 0;
+    padding: 22px 10px;
   }
   header .navbar-brand .alt-logo,
   header .navbar-brand .default-logo {
