@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg header-light header-transparent bg-transparent sticky-header">
             <div class="container-fluid">
                 <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                    <a class="navbar-brand" href="demo-web-agency.html">
+                    <a class="navbar-brand" href="index.html">
                         <img style="height: 50px; filter: invert(1)" src="images/achyut-a-logo.svg" />
                     </a>
                 </div>
@@ -59,10 +59,10 @@
                 <div class="col-auto col-lg-2 text-end">
                     <div class="header-icon">
                         <div class="header-button">
-                            <a href="demo-web-agency-about.html"
+                            <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 class="btn btn-rounded btn-white btn-medium btn-switch-text btn-box-shadow text-transform-none">
                                 <span>
-                                    <span class="btn-double-text" data-text="Hire agency">Hire agency</span>
+                                    <span class="btn-double-text" data-text="Contact Us">Contact Us</span>
                                     <span><i class="fa-solid fa-arrow-right"></i></span>
                                 </span>
                             </a>
@@ -297,8 +297,11 @@
                         </p>
 
                         <a href="https://www.prathampos.com/" target="_blank"
+                            class="btn btn-large btn-expand-ltr text-white btn-rounded fw-700 mb-50px sm-mb-0 me-4"><span
+                                class="bg-base-color"></span>Visit Site<i class="fas fa-regular fa-arrow-right"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                             class="btn btn-large btn-expand-ltr text-white btn-rounded fw-700 mb-50px sm-mb-0"><span
-                                class="border border-white"></span>Visit Site</a>
+                                class="bg-base-color"></span>Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -337,8 +340,11 @@
                         </p>
 
                         <a href="https://www.flakesbakes.com.au/" target="_blank"
+                            class="btn btn-large btn-expand-ltr text-white btn-rounded fw-700 mb-50px sm-mb-0 me-4"><span
+                                class="bg-base-color"></span>Visit Site<i class="fas fa-regular fa-arrow-right"></i></a>
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                             class="btn btn-large btn-expand-ltr text-white btn-rounded fw-700 mb-50px sm-mb-0"><span
-                                class="border border-white"></span>Visit Site</a>
+                                class="bg-base-color"></span>Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -440,7 +446,7 @@
                     <h6 class="fw-500 text-white mb-20px sm-mb-10px ls-minus-05px">
                         <span class="fw-700">Hello,</span> Tell us about your project.
                     </h6>
-                    <form action="https://craftohtml.themezaa.com/email-templates/contact-form.php" method="post">
+                    <form>
                         <div class="position-relative form-group mb-20px">
                             <span class="form-icon"><i class="bi bi-person icon-extra-medium text-white"></i></span>
                             <input class="ps-0 border-radius-0px border-color-dark-gray form-control required"
@@ -481,13 +487,13 @@
                 <div class="col-md-10 col-sm-8 text-center text-sm-start xs-mb-25px">
                     <h5 class="mb-0 text-white fw-400 ls-minus-1px">
                         Let's make something great
-                        <a href="demo-web-agency-contact.html"
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal"
                             class="text-decoration-line-bottom-medium fw-600 text-white text-dark-gray-hover">work
                             together?</a>
                     </h5>
                 </div>
                 <div class="col-md-2 col-sm-4">
-                    <a href="demo-web-agency.html" class="footer-logo d-inline-block"><img
+                    <a href="index.html" class="footer-logo d-inline-block"><img
                             style="height: 50px; filter: invert(1)" src="images/achyut-a-logo.svg" /></a>
                 </div>
             </div>
@@ -556,19 +562,19 @@
                     <div class="col-lg-7 text-center text-lg-start md-mb-10px">
                         <ul class="footer-navbar fw-600 fs-16">
                             <li class="nav-item active">
-                                <a href="demo-web-agency.html" class="nav-link">Home</a>
+                                <a href="#home" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="demo-web-agency-about.html" class="nav-link">About</a>
+                                <a href="#about" class="nav-link">About</a>
                             </li>
                             <li class="nav-item">
-                                <a href="demo-web-agency-expertise.html" class="nav-link">Products</a>
+                                <a href="#products" class="nav-link">Products</a>
                             </li>
                             <li class="nav-item">
-                                <a href="demo-web-agency-projects.html" class="nav-link">Testimonials</a>
+                                <a href="#testimonials" class="nav-link">Testimonials</a>
                             </li>
                             <li class="nav-item">
-                                <a href="demo-web-agency-contact.html" class="nav-link">Contact</a>
+                                <a href="#contact" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -582,11 +588,6 @@
             </div>
         </div>
     </footer>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
-  </button>
-  
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -606,7 +607,7 @@
                         <h6 class="fw-500 text-white mb-20px sm-mb-10px ls-minus-05px">
                             <span class="fw-700">Hello,</span> Tell us about your project.
                         </h6>
-                        <form action="https://craftohtml.themezaa.com/email-templates/contact-form.php" method="post">
+                        <form>
                             <div class="position-relative form-group mb-20px">
                                 <span class="form-icon"><i class="bi bi-person icon-extra-medium text-white"></i></span>
                                 <input class="ps-0 border-radius-0px border-color-dark-gray form-control required"
@@ -649,8 +650,15 @@
                     class="scroll-point"></span></span>
         </a>
     </div>
+    <script>document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});</script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
